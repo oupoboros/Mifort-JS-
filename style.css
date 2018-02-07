@@ -1,0 +1,57 @@
+body {
+	background-color: ghostwhite;
+	font-family: 'Montserrat', sans-serif;
+}
+
+form {
+	background-color: gainsboro;
+	margin: 0 auto;
+	width: 400px;
+	height: 300px;
+	margin-top: 100px;
+	padding: 50px;
+}
+
+.login,
+.password,
+.email,
+.name_form {
+	margin: 0 auto;
+
+}
+
+.name_form {
+	font-size: 25px;
+	color: black;
+	text-align: center;
+}
+
+.login,
+.email,
+.password {
+	height: 30px;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	font-size: 20px;
+	padding: 20px 30px;
+	text-decoration: none;
+	cursor: pointer;
+	width: 150px;
+	border-radius: 20px;
+}
+
+.submit {
+	width: 150px;
+	margin: 0 auto;
+}
+
